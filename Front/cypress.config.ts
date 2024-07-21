@@ -6,5 +6,6 @@ export default defineConfig({
       framework: "react",
       bundler: "vite",
     },
+    indexHtmlFile: 'cypress/support/component-index.html',
   },
 });

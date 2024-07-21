@@ -1,12 +1,12 @@
-import { useState } from "react";
+import Sidebar from "./components/Sidebar";
+import Content from "./Content";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <>
-      <div className="bg-red-400 flex-1 w-screen h-screen">ssss</div>
-    </>
+    <div className="flex flex-row flex-1 h-screen bg-gray-500">
+      <Sidebar />
+      <Content />
+    </div>
   );
 }
 
