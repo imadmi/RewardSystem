@@ -1,4 +1,3 @@
-import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { setActiveComponent, setNavBar } from "../store/reducers/rootReducer";
 import { State } from "../Content";
@@ -9,8 +8,8 @@ function SidbarModal() {
 
   return (
     <div
-      className="flex md:hidden fixed top-20 left-0 text-1xl font-mono font-normal 
-      w-screen bg-gray-100 pl-[5%]  h-screen z-20 er "
+      className="flex md:hidden fixed top-20 left-0 text-1xl font-mono 
+      font-normal w-screen bg-gray-100 pl-[5%] h-screen z-20"
     >
       <ul className="space-y-8 text-black hover:cursor-pointer mt-8">
         <li
